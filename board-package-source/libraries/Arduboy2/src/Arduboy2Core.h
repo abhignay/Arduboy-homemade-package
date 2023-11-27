@@ -304,13 +304,13 @@
 #define B_BUTTON _BV(0)
 
 // pin values for buttons, probably shouldn't use these
-#define PIN_LEFT_BUTTON 9
+#define PIN_LEFT_BUTTON 5
 #define LEFT_BUTTON_PORT PORTB
 #define LEFT_BUTTON_PORTIN PINB
 #define LEFT_BUTTON_DDR DDRB
 #define LEFT_BUTTON_BIT PORTB5
 
-#define PIN_RIGHT_BUTTON 5
+#define PIN_RIGHT_BUTTON 9
 #define RIGHT_BUTTON_PORT PORTC
 #define RIGHT_BUTTON_PORTIN PINC
 #define RIGHT_BUTTON_DDR DDRC
